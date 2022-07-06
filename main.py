@@ -94,7 +94,7 @@ for i in all_symbol:
 # pool.map(runner,inout)
 # pool.shutdown()
 # pool.wait()
-if __name__ == '__main__':
+while True:
     tic = time.perf_counter()
     # start 4 worker processes
     # with Pool(processes=thread) as pool:
